@@ -1,0 +1,43 @@
+/* Header*/
+.navbar{
+    max-width: 100%;
+}
+.navbar-expand-lg {
+    background-image: $color_fondo ; 
+    width: 100vw;
+    }
+    
+    .barra {
+        width: 40vw;   
+        border-radius: 5px; 
+        margin-right: 2px;
+    }
+    
+    .navbar-toggler {
+        color:$color_letra;
+        border: $borde;
+    }
+    
+    .btn{ 
+        color: $color_letra;  
+        border : $borde; 
+
+        &:hover{
+            background: map-get($map-background, gris);
+            border: $borde;
+        }   
+    }
+    
+    .nav-link { 
+        color: white; 
+    }
+    
+    .promo {
+       background: rgb(47, 131, 32);
+       border-radius:2%;
+    }
+
+    .btn{ 
+        color: white;
+    }
+
